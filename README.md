@@ -1,0 +1,3 @@
+# Magento Theme Jonas Design
+-----------------------
+
