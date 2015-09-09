@@ -12,15 +12,13 @@
  -->
 <layout version="0.1.0">
     <default>
+        <!-- Adding main css file -->
+        <action method="addCss"><stylesheet>css/styles.css</stylesheet></action>
+        <action method="addCss"><stylesheet>css/main.css</stylesheet></action>
         <!-- Adding local css and javascript files-->
         <action method="addItem">
             <type>skin_js</type>
             <!-- TODO create local javascript files to be added-->
-        </action>
-        <!-- Adding main css file -->
-        <action method="addItem">
-            <type>skin_css</type>
-            <name>css/main.css</name>
         </action>
     </default>
 </layout>
