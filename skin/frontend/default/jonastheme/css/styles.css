@@ -90,7 +90,9 @@ ul,ol         { list-style:none; }
 
 /* Layout ================================================================================ */
 .wrapper {}
-.page { width:1024px; margin:0 auto; padding:10px 0; text-align:left; }
+.page {
+    background: #fff;
+    width:1024px; margin:0 auto; padding:0px 0; text-align:left; }
 .page-print { background:#fff; padding:20px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { padding:20px; text-align:left; }
@@ -438,15 +440,18 @@ tr.summary-details-excluded { font-style:italic; }
 
 /* Header ================================================================================ */
 .logo { float:left; }
-.header-container {}
+.header-container {
+}
 .header-top {
+    padding:3px 0;
     border: 1px solid #000000;
-    background:100% #000;
+    background: #000;
     text-align: right;
 }
 .header-top a {
     color:#fff;
     font-size: 15px;
+
 }
 .header { padding:10px; border:0px solid #fff; }
 .header .logo { float:left; text-decoration:none !important; }
