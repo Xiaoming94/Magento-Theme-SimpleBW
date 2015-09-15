@@ -445,13 +445,18 @@ tr.summary-details-excluded { font-style:italic; }
 .header-top {
     padding:3px 0;
     border: 1px solid #000000;
+    margin: 0 auto;
     background: #000;
     text-align: right;
 }
 .header-top a {
     color:#fff;
-    font-size: 15px;
-
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-top a:hover {
+    color:#aaa
 }
 .header { padding:10px; border:0px solid #fff; }
 .header .logo { float:left; text-decoration:none !important; }
@@ -468,7 +473,12 @@ tr.summary-details-excluded { font-style:italic; }
 
 /********** < Navigation */
 .nav-container {}
-#nav { border:1px solid #ddd; padding:5px 0; margin:10px 0; font-size:13px; }
+#nav { 
+    border: 0 solid #fff; 
+    padding:5px 0; 
+    margin:10px 0; 
+    font-size:13px;
+}
 
 /* All Levels */
 #nav li { text-align:left; position:relative; }
@@ -481,7 +491,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 /* 1st Level */
 #nav li { float:left; }
-#nav li a { float:left; padding:5px 10px; font-weight:bold; color:#888; }
+#nav li a { float:center; padding:5px 10px; font-weight:bold; color:#000; }
 #nav li a:hover { color:#000; }
 #nav li.over a,
 #nav li.active a { color:#000; }
