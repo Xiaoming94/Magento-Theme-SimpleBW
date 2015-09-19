@@ -44,7 +44,7 @@ h5            { font-size:12px; font-weight:bold; }
 h6            { font-size:11px; font-weight:bold; }
 
 /* Forms */
-form          { display:inline; }
+form          { display:inline;}
 fieldset      { border:0; }
 legend        { display:none; }
 
@@ -462,21 +462,26 @@ tr.summary-details-excluded { font-style:italic; }
 .header .logo { float:left; text-decoration:none !important; }
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
 .header h1.logo { margin:0; padding:0; }
-.header .form-search { text-align:right; }
-.header .form-search .search-autocomplete { z-index:999; }
-.header .form-search .search-autocomplete ul { border:1px solid #ddd; background-color:#fff; }
-.header .form-search .search-autocomplete li { padding:3px; border-bottom:1px solid #ddd; cursor:pointer; }
-.header .form-search .search-autocomplete li .amount { float:right; font-weight:bold; }
-.header .form-search .search-autocomplete li.selected {}
-.header .form-language { clear:both; text-align:right; }
 .header-container .top-container { clear:both; text-align:right; }
 
 /********** < Navigation */
 .nav-container {}
-#nav { 
-    border: 0 solid #fff; 
+.nav-container #nav .form-search {
+    background:#fff;
+    position:static;
+    text-align:right;
+    float:right;
+}
+.nav-container #nav .form-search .search-autocomplete { z-index:999; }
+.nav-container #nav .form-search .search-autocomplete ul { border:1px solid #ddd; background-color:#fff; }
+.nav-container #nav .form-search .search-autocomplete li { padding:3px; border-bottom:1px solid #ddd; cursor:pointer; }
+.nav-container #nav .form-search .search-autocomplete li .amount { float:right; font-weight:bold; }
+.nav-container #nav .form-search .search-autocomplete li.selected {}
+.nav-container .form-language { clear:both; text-align:right; }
+#nav {
+    border: 1px solid #fff; 
     padding:5px 0; 
-    margin:10px 0; 
+    margin:5px 0; 
     font-size:13px;
 }
 
@@ -490,9 +495,11 @@ tr.summary-details-excluded { font-style:italic; }
 #nav li ul a span { white-space:normal; }
 
 /* 1st Level */
-#nav li { float:left; }
+#nav li { 
+    float:left;
+}
 #nav li a { float:center; padding:5px 10px; font-weight:bold; color:#000; }
-#nav li a:hover { color:#000; }
+#nav li a:hover { color:#aaa; }
 #nav li.over a,
 #nav li.active a { color:#000; }
 
