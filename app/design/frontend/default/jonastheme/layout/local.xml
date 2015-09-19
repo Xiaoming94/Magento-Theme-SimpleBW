@@ -20,5 +20,11 @@
             <type>skin_js</type>
              TODO create local javascript files to be added
         </action> -->
+        <reference name="header">
+            <remove name ="top.search" />
+        </reference>
+        <reference name="catalog.topnav">
+            <block type="core/template" name="top.search2" as="topSearch2" template="catalogsearch/form.mini.phtml" after="-" />
+        </reference>
     </default>
 </layout>
