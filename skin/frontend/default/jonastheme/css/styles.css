@@ -465,10 +465,15 @@ tr.summary-details-excluded { font-style:italic; }
 .header-container .top-container { clear:both; text-align:right; }
 
 /********** < Navigation */
+form #search_form_mini {
+    display:inline-block;
+}
 .nav-container {}
 .nav-container #nav .form-search {
     background:#fff;
+    border: 0px solid #fff;
     position:static;
+    width:300px;
     text-align:right;
     float:right;
 }
@@ -480,7 +485,7 @@ tr.summary-details-excluded { font-style:italic; }
 .nav-container .form-language { clear:both; text-align:right; }
 #nav {
     border: 1px solid #fff; 
-    padding:5px 0; 
+    padding:5px 0;
     margin:5px 0; 
     font-size:13px;
 }
