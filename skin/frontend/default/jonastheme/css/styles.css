@@ -90,13 +90,20 @@ ul,ol         { list-style:none; }
 
 /* Layout ================================================================================ */
 .wrapper {}
+
+
 .page {
     background: #fff;
-    width:1024px; margin:0 auto; padding:0px 0; text-align:left; }
+ }
 .page-print { background:#fff; padding:20px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { padding:20px; text-align:left; }
-.main-container {}
+.main-container {
+    width:1024px;
+    margin:0 auto; 
+    padding:0px 0; 
+    text-align:left;
+}
 .main { margin:10px 0; }
 
 /* Base Columns */

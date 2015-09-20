@@ -1,12 +1,12 @@
 
 /* Header ================================================================================ */
 .logo { float:left; }
-.header-container {
+.header-container {}
+.header-content-width {
+    width: 1024px;
+    margin: 0 auto;
 }
 .header-top {
-    padding:3px 0;
-    border: 1px solid #000000;
-    margin: 0 auto;
     background: #000;
     text-align: right;
 }
