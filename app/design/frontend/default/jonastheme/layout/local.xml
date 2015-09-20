@@ -13,13 +13,14 @@
 <layout version="0.1.0">
     <default>
         <reference name="head">
-        <!-- Adding local css and javascript files-->
-            <!-- <action method="addItem">
-            <type>skin_js</type>
-             TODO create local javascript files to be added
-            </action> -->
-        <!-- Adding main css file -->
-            <action method="addItem"><type>skin_css</type><name>css/styles.css</name></action>
+            <!-- Adding javascript files-->
+            <action method="addItem"><type>skin_js</type><name>js/jquery.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/bootstrap.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/jquery.scripts.js</name></action>
+            <!-- Adding css files -->
+            <action method="removeItem"><type>skin_css</type><name>css/styles.css</name></action>
+            <action method="addItem"><type>skin_css</type><name>css/bootstrap.min.css</name></action>
+            <action method="addItem"><type>skin_css</type><stylesheet>css/styles.css</stylesheet></action>
             <action method="addItem"><type>skin_css</type><name>css/header.css</name></action>
         </reference>
         <reference name="header">
