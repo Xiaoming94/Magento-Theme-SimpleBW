@@ -2,7 +2,11 @@
 /* Header ================================================================================ */
 .logo { float:left; }
 .header-container {
+    position: relative;
+    width: 100%;
+    background: #fff;
 }
+
 .header-content-width {
     width: 1024px;
     margin: 0 auto;
@@ -29,6 +33,9 @@
     padding:20px; 
     border:0px solid #fff;
     height:100px;
+}
+.header-container .sticky .header {
+    height:60px;
 }
 .header .logo { float:left; text-decoration:none !important; }
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }

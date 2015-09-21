@@ -1,4 +1,11 @@
 jQuery.noConflict();
 jQuery(document).ready(function (){
-//TODO edit this file when we need to add more scripts
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > 1){
+            jQuery('.header-container').addClass("sticky");
+        }
+        else{
+            jQuery('.header-container').removeClass("sticky");
+        }
+    });
 });
