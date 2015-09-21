@@ -2,9 +2,16 @@
 /* Header ================================================================================ */
 .logo { float:left; }
 .header-container {
-    position: relative;
+    position: fixed;
     width: 100%;
     background: #fff;
+    top: 0;
+    left 0;
+    transition: 500ms;
+}
+
+.header-container .sticky {
+    position: fixed;
 }
 
 .header-content-width {
