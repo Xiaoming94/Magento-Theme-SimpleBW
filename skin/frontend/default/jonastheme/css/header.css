@@ -12,6 +12,10 @@
     text-align: right;
     box-sizing: content-box;
 }
+.header-top ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 .header-top a {
     color:#fff;
     font-size: 11px;

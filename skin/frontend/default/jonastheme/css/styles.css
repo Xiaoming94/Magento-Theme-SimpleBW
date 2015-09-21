@@ -1138,7 +1138,13 @@ tr.summary-details-excluded { font-style:italic; }
 
 
 /* Footer ================================================================================ */
-.footer { border:1px solid #ddd; padding:10px; }
+.footer {
+    background: #000;
+    border: 0px solid #fff;
+    padding;10px;
+    margin-top:10px;
+    color: #fff;
+}
 .footer p { text-align:right; }
 .footer address { text-align:right; }
 .footer ul {}
