@@ -2,15 +2,12 @@
 /* Header ================================================================================ */
 .logo { float:left; }
 .header-container {
-    position: fixed;
+    position: static;
     width: 100%;
     background: #fff;
-    top: 0;
-    left 0;
-    transition: 500ms;
 }
 
-.header-container .sticky {
+.sticky {
     position: fixed;
 }
 
@@ -21,7 +18,6 @@
 .header-top {
     background: #000;
     text-align: right;
-    box-sizing: content-box;
 }
 .header-top ul {
     margin-top: 8px;
@@ -41,7 +37,7 @@
     border:0px solid #fff;
     height:100px;
 }
-.header-container .sticky .header {
+.sticky .header {
     height:60px;
 }
 .header .logo { float:left; text-decoration:none !important; }
