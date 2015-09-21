@@ -5,6 +5,7 @@
     position: static;
     width: 100%;
     background: #fff;
+    transition: all 0.4s ease;
 }
 
 .sticky {
@@ -33,12 +34,14 @@
     color:#aaa
 }
 .header { 
-    padding:20px; 
+    padding:10px; 
     border:0px solid #fff;
-    height:100px;
+    margin-bottom:20px;
+    margin-top:20px;
 }
 .sticky .header {
-    height:60px;
+    margin-bottom:0px;
+    margin-top:0px;
 }
 .header .logo { float:left; text-decoration:none !important; }
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
