@@ -1,9 +1,8 @@
 jQuery.noConflict();
 jQuery(document).ready(function (){
     var headerTop = jQuery('.header-container').outerHeight();
-    console.log(headerTop);
     jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > 115){
+        if (jQuery(this).scrollTop() > 0){
             jQuery('.header-container').addClass("sticky");
             jQuery('.main-container').css("paddingTop",headerTop)
         }

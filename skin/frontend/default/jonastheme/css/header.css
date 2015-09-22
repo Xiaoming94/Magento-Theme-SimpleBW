@@ -5,7 +5,7 @@
     position: relative;
     width: 100%;
     background: #fff;
-    transition: all 0.4s ease;
+/*    transition: all 0.4s ease;*/
 }
 
 .sticky {
@@ -13,6 +13,9 @@
     box-shadow: 0px 4px 4px 0px rgba(119,119,119,0.6);
     -moz-box-shadow: 0px 4px 4px 0px rgba(119,119,119,0.6);
     -webkit-box-shadow: 0px 4px 4px 0px rgba(119,119,119,0.6);
+    top: 0;
+    left: 0;
+    z-index:999;
 }
 
 .header-content-width {
@@ -37,10 +40,10 @@
     color:#aaa
 }
 .header { 
-    padding:10px; 
+    padding:5px; 
     border:0px solid #fff;
     margin-bottom:20px;
-    margin-top:20px;
+    margin-top:15px;
 }
 .sticky .header {
     margin-bottom:0px;
@@ -58,7 +61,7 @@ form #search_form_mini {
 .nav-container {}
 #nav {
     border: 1px solid #fff; 
-    padding:5px 0;
+    padding:10px 0;
     margin:5px 0; 
     font-size:13px;
     text-align:center;
