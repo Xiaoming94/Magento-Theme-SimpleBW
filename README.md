@@ -1,3 +1,6 @@
-# Magento Theme Jonas Design
+# Magento Theme Simple black and White
 -----------------------
-Implemented by XiaoMing
+
+This theme is a modified version of the blank theme.
+
+![Theme Screenshot](./screenshot.png)
